@@ -3,6 +3,8 @@ import supabase from "./../supabaseClient.js";
 import { validateEnrollment } from "./../middleware/validateEnrollment.js";
 const router = express.Router();
 
+
+
 //get all courses
 
 router.get("/courses", async (req, res) => {
